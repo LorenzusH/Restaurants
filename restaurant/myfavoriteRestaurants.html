@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+div.header-wrapper-outer {
+   width:100%;
+   height:45px;
+   background:black;
+}
+
+div.logo, div.navigation-wrapper {
+   display:inline-block;
+   
+}
+
+div.navigation-wrapper {
+   vertical-align:top;
+}
+
+form#search {
+   display:inline-block;
+}
+
+div.logo {
+   background-color:red;
+   color:White;
+   height:45px;
+   line-height:45px;
+   width:70px;
+   font-size:30px;
+   text-align:center;
+}
+
+ul.nav li {
+   display: inline;
+   list-style: none;
+   padding: 0;
+   color: white;
+}
+
+ul.nav li {
+   display:inline;
+   list-style:none;
+   color: white;
+   padding: 10px;
+   float: left;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+
+
+
+
+     footer ul {
+        list-style: none;
+        justify-content: center;
+     }
+
+     footer ul li {
+        display: inline-flex;
+        justify-content: center;
+     }
+
+     footer {
+        justify-content: center;
+         text-decoration: none;
+     }
+
+      nav ul li a {
+      text-decoration: none;
+      color: white;
+     }
+
+     #button-holder img {
+        height: 10px;
+        width: 10px;
+        justify-content: center;
+        background-color: red;
+        color: white;
+     }
+
+     #button-holder {
+      color: white;
+     }
+
+     #cart {
+      display: block;
+            width: 10px;
+            height: 10px;
+            background: url(http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg) center;
+            background-size: contain;
+            background-color: white;
+         
+     }
+     
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorenzo's Picks</title>
+
+</head>
+<body>
+
+    <body>
+
+        <div class="header-wrapper-outer"> 
+            <div clas="header-wrapper-inner"> 
+             <div class="logo">
+               Logo 
+             </div> 
+             <div class="navigation-wrapper"> 
+              <ul class="nav"> 
+               <li> <a href="myfavoriteRestaurants.html">Home</a> </li> 
+               <li> <a href="mykitchen.html">My Kitchen</a> </li> 
+               <li> <a href="myfavoritedesert.html">Deserts</a> </li> 
+               <li> <a href="myfavoritedrinks.html">Drinks</a> </li>
+               <li> 
+                  <form id="search" name="search"> 
+                   <input type="text" name="q" placeholder="Search">
+                  </form> </li> 
+                  <li>
+                     <div id="button-holder">
+                        <img src="https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png" />
+                      </div>
+                   </li>
+               <li> <a href="sign-in.html" class="right">Sign in</a> </li>
+               <li> <a href="view-cart.html" class="right">view Cart</a> </li>
+               <li>
+                  <div>
+                     <a href="#" id="cart"></a>
+                   </div>
+                </li>
+                
+              </ul> 
+             </div> 
+             
+            </div> 
+           </div>
+
+    <h1>Welcome to my top 5 restaurants in Phoenix.</h1>
+    <p>This page would show you my top picks for Mexican food restaurants</p>
+
+    <h4>Here are my top 5 picks</h4>
+    <ul>
+        <li>Tacos Rojo</li>
+        <li>Tacos Calafia</li>
+        <li>Restaurante Loritos</li>
+        <li>Birrieria Obregon</li>
+        <li><a href="mykitchen.html">My kitchen</a></li>
+    </ul>
+    
+    <h4>Here is my picks for entry on each Restaurante.</h4>
+    <ul>
+        <li><b>Tacos Rojo:</b> Birria Ramen</li>
+        <li><b>Tacos Calafia:</b> Taco-Nachos</li>
+        <li><b>Restaurante Loritos:</b> Green Enchiladas</li>
+        <li><b>Birrieria Obregon:</b> Birria de Chivo</li>
+        <li><b>My kitchen:</b> Everything...</li>
+    </ul>
+
+    <h4>Which Restaurante would you like to try?</h4>
+    <form>
+        <label for="name">name</label><br>
+        <input id="name" type="text" name="name"><br>
+        <label for="email">e-mail</label><br>
+        <input id="email" type="text" name="email"><br>
+        <label for="What">What would you like to try?</label><br>
+        <textarea id="what" name="what" placeholder="What would you like to eat?"></textarea><br>
+        <input type="button" value="Submit">
+    </form>
+
+    <footer>
+        <ul class="footer">
+            <li><a href="myfavoriteRestaurants.html">Home</a></li>
+                <li><a href="mykitchen.html">My Kitchen</a></li>
+                <li><a href="myfavoritedesert.html">Desert</a></li>
+                <li><a href="myfavoritedrinks.html">Drinks</a></li>
+        </ul>
+      </footer>
+
+</body>
+</html>
